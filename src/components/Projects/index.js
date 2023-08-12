@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Projects = () => {
+function Projects() {
     return (
-        <section>
+        <div className="projects">
             <h2>My Projects</h2>
-            <p>A showcase of my projects with links or detailed descriptions.</p>
-        </section>
+            <p>Your projects content here...</p>
+        </div>
     );
 }
 

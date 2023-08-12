@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Resume = () => {
+function Resume() {
     return (
-        <section>
+        <div className="resume">
             <h2>My Resume</h2>
-            <p>Details about my work experience, education, etc.</p>
-        </section>
+            <p>Your resume content here...</p>
+        </div>
     );
 }
 

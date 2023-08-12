@@ -1,12 +1,13 @@
 import React from 'react';
 
-const Contact = () => {
+function Contact() {
     return (
-        <section>
-            <h2>Contact Me</h2>
-            <p>Email: example@example.com</p>
-            <p>Phone: 123-456-7890</p>
-        </section>
+        <div className="contact-form">
+            <input type="text" className="form-control" placeholder="Name" />
+            <input type="email" className="form-control" placeholder="Email" />
+            <textarea className="form-control" placeholder="Message"></textarea>
+            <button className="btn btn-primary mt-3">Submit</button>
+        </div>
     );
 }
 
