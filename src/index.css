@@ -3,7 +3,25 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 0;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
+html, body {
+    height: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+.App {
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
 
 .container {
     max-width: 1200px;
@@ -11,13 +29,15 @@ body {
     padding: 20px;
 }
 
+
 .footer {
     background-color: #343a40;
     color: white;
     padding: 20px 0;
     text-align: center;
-    position: absolute;
+    position: relative;
     bottom: 0;
+    flex-shrink: 0;
     width: 100%;
 }
 
@@ -42,4 +62,28 @@ body {
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.app-content {
+    flex: 1 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Styling for PastWork */
+.pastwork {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.work-item {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.work-item h3 {
+    margin-top: 0;
 }
