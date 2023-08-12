@@ -4,11 +4,11 @@ function Resume() {
     return (
         <div className="resume" id='resume'>
             <h2>My Resume</h2>
-            <p>my resume content here...</p>
+            <p>Your resume content here...</p>
             <a 
-                href="/resume.pdf" 
+                href="/Resume.pdf" 
                 target="_blank" 
-                rel="../../../public/Resume.pdf"
+                rel="noopener noreferrer"
             >
                 <button>View PDF</button>
             </a>
