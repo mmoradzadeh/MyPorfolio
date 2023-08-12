@@ -17,7 +17,7 @@ function Nav() {
                         <Link to="contact" smooth={true} duration={1000} className="nav-link">Contact</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="pastwork" smooth={true} duration={1000} className="nav-link">Past Work</Link>
+                        <Link to="background" smooth={true} duration={1000} className="nav-link">Background</Link>
                     </li>
                 </ul>
             </div>
