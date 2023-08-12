@@ -22,12 +22,16 @@ function Projects() {
                     <a className="dropdown-item" href="https://github.com/TimeBytes/Movie-Dashboard" target="_blank" rel="noopener noreferrer">
                         Project 1
                     </a>
-                    <img src={Project1} alt="project_one" style={{width: '500px', height: '200px'}} />
+                    <a href="https://github.com/TimeBytes/Movie-Dashboard" target="_blank" rel="noopener noreferrer">
+                        <img src={Project1} alt="project_one" style={{width: '500px', height: '200px'}} />
+                    </a>
 
                     <a className="dropdown-item" href="https://github.com/DanialDevelops/movie-review" target="_blank" rel="noopener noreferrer">
                         Project 2
                     </a>
-                    <img src={Project2B} alt="project_two" style={{width: '500px', height: '200px'}} />
+                    <a href="https://github.com/DanialDevelops/movie-review" target="_blank" rel="noopener noreferrer">
+                        <img src={Project2B} alt="project_two" style={{width: '500px', height: '200px'}} />
+                    </a>
                 </div>
             </div>
         </div>
