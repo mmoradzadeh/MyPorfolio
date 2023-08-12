@@ -8,7 +8,7 @@ function Resume() {
             <a 
                 href="/resume.pdf" 
                 target="_blank" 
-                rel="noopener noreferrer"
+                rel="../../../public/Resume.pdf"
             >
                 <button>View PDF</button>
             </a>
