@@ -4,7 +4,7 @@ function Resume() {
     return (
         <div className="resume" id='resume'>
             <h2>My Resume</h2>
-            <p>Your resume content here...</p>
+            <p>You can view my Resume Here</p>
             <a 
                 href="/Resume.pdf" 
                 target="_blank" 
