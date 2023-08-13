@@ -11,28 +11,35 @@ function Contact() {
     }
 
     return (
-        <div className="contact-form" id='contact'>
+        <div className="contact-form container mt-5" id='contact'>
             <h2>Contact Me</h2>
-            <input 
-                type="text" 
-                className="form-control" 
-                placeholder="Name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-            />
-            <input 
-                type="email" 
-                className="form-control" 
-                placeholder="Email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-            />
-            <textarea 
-                className="form-control" 
-                placeholder="Message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-            ></textarea>
+            <div className="form-group">
+                <input 
+                    type="text" 
+                    className="form-control mt-3" 
+                    placeholder="Name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                />
+            </div>
+            <div className="form-group">
+                <input 
+                    type="email" 
+                    className="form-control mt-3" 
+                    placeholder="Email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                />
+            </div>
+            <div className="form-group">
+                <textarea 
+                    className="form-control mt-3" 
+                    placeholder="Message"
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
+                    rows="4"
+                ></textarea>
+            </div>
             <button 
                 className="btn btn-primary mt-3"
                 onClick={handleSubmit}

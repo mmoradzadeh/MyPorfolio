@@ -5,11 +5,13 @@ function Nav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <Link to="home" smooth={true} duration={1000} className="navbar-brand">My Portfolio</Link>
-            <div className="collapse navbar-collapse">
+
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+
+            <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav ml-auto">
-                    <li className="nav-item">
-                        <Link to="home" smooth={true} duration={1000} className="nav-link">Home</Link>
-                    </li>
                     <li className="nav-item">
                         <Link to="about" smooth={true} duration={1000} className="nav-link">About</Link>
                     </li>
@@ -18,6 +20,22 @@ function Nav() {
                     </li>
                     <li className="nav-item">
                         <Link to="background" smooth={true} duration={1000} className="nav-link">Background</Link>
+                    </li>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Connect With Me
+                        </a>
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a className="dropdown-item" href="tel:+1-416-858-1606" target="_blank">Phone Number</a></li>
+                            <li><a className="dropdown-item" href="mailto:m*******m@gmail.com" target="_blank">E-mail</a></li>
+                            <li><a className="dropdown-item" href="https://github.com/Mahdi-Moradzadeh" target="_blank">GitHub</a></li>
+                            <li><a className="dropdown-item" href="https://www.linkedin.com/in/mahdimoradzadeh/" target="_blank">LinkedIn</a></li>
+                            <li><hr className="dropdown-divider" /></li>
+                            <li><a className="dropdown-item" href="https://www.instagram.com/mehdi__mm97/" target="_blank">Instagram</a></li>
+                            <li><a className="dropdown-item" href="https://twitter.com/7H3_3M" target="_blank">Twitter</a></li>
+                            <li><a className="dropdown-item" href="https://www.facebook.com/mehdi.moradzadeh97" target="_blank">Facebook</a></li>
+                            <li><a className="dropdown-item" href="https://open.spotify.com/user/21zjijx4oaxral3u6zlwqi4gq" target="_blank">Spotify</a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>

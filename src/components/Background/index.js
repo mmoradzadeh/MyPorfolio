@@ -1,32 +1,32 @@
 import React from 'react';
-import '../../index.css';
 
 function Background() {
     return (
-        <div className="background" id='background'>
+        <div className="background container mt-5" id='background'>
             <h2>Background</h2>
-            <div className="work-item">
+
+            <div className="work-item mt-4">
                 <h3>Skills and Programs</h3>
                 <p>
-                    I have explored many application and have acquired many skills throughout my journey. One of few are, moderate understanding of programming in C and C++ languages, beginner in python, average understanding of Matlab, excellent skillset in the Microsoft suites (e.g. word, excel, etc.), confident in my abilities to work with AutoCAD, SAP, Safe, and ETABs.
+                    I have explored many applications and have acquired many skills throughout my journey. Among these are a moderate understanding of programming in C and C++ languages, beginner skills in python, average understanding of Matlab, excellent skills in the Microsoft suites (e.g. word, excel, etc.), and confidence in my abilities to work with AutoCAD, SAP, Safe, and ETABs.
                 </p>
                 <p>
-                    I have acquired team working and excelled in communication skills during the completion of my Bachelors degree and have been successful at expanding my connection network outside of my field of study. I am passionate about the things that are my responsibility and provide my unequivocal attention in direction of completing the tasks at hand.
+                    I have acquired team working and excelled in communication skills during the completion of my Bachelors degree and have been successful at expanding my connection network outside of my field of study. I am passionate about my responsibilities and always give my unequivocal attention towards completing tasks at hand.
                 </p>
             </div>
             
-            <div className="work-item">
+            <div className="work-item mt-4">
                 <h3>Education</h3>
                 <strong>Masters of Applied Sciences</strong>
                 <p>
-                    During the completion of my master's degree, I focused on a rare condition that occurs in concrete structures of basement walls and foundations. The reasons for such phenomena are found to be originated from the presence of sulfate in aggregates within the concrete matrix or scientifically known as Internal Sulphate Attack (a.k.a. ISA). Due to the lack of information regarding this topic, I was tasked with attempting to find an accelerated method that can identify the adequacy of aggregates used in concrete under extreme conditions.
+                    During the completion of my master's degree, I focused on a rare condition that occurs in concrete structures of basement walls and foundations. This phenomena is thought to be originated from the presence of sulfate in aggregates within the concrete matrix, scientifically known as Internal Sulphate Attack (ISA). Due to the lack of information regarding this topic, I was tasked with attempting to find an accelerated method that can identify the adequacy of aggregates used in concrete under extreme conditions.
                 </p>
                 <p>
-                    I have successfully discovered two revolutionary methods that could possibly define the adequacy of aggregates to be used by the industry. This groundbreaking discovery is currently under further investigation to be published and presented to the Canadian Standard Association of concrete structures or CSA as a possible examination process on a universal scale.
+                    I successfully discovered two revolutionary methods that could possibly define the adequacy of aggregates to be used by the industry. This groundbreaking discovery is currently under further investigation to be published and presented to the Canadian Standard Association of concrete structures or CSA as a possible examination process on a universal scale.
                 </p>
             </div>
 
-            <div className="work-item">
+            <div className="work-item mt-4">
                 <h3>Fun Facts</h3>
                 <p>
                     Some fun facts that might surprise people can be further categorized into two groups: interests and hobbies. Here, I'll detail things I am passionate about and strive to acquire more knowledge in (interests), and activities I indulge in during my free hours.
