@@ -1,36 +1,59 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 
 function Nav() {
-    return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <Link to="home" smooth={true} duration={1000} className="navbar-brand">My Portfolio</Link>
+    const [scrolled, setScrolled] = useState(false);
 
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    useEffect(() => {
+        const handleScroll = () => {
+            const offset = window.scrollY;
+            if (offset > 200) {
+                setScrolled(true);
+            } else {
+                setScrolled(false);
+            }
+        };
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    let navbarClasses = ['navbar', 'navbar-expand-lg', 'navbar-dark', 'bg-dark'];
+    if (scrolled) {
+        navbarClasses.push('nav-scrolled');
+    }
+
+    return (
+        <nav className={navbarClasses.join(' ')}>
+            <Link to="home" smooth={true} duration={1000} className="navbar-brand">Mahdi Moradzadeh</Link>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
                 <span className="navbar-toggler-icon"></span>
             </button>
-
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
                         <Link to="about" smooth={true} duration={1000} className="nav-link">About</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="contact" smooth={true} duration={1000} className="nav-link">Contact</Link>
+                        <Link to="projects" smooth={true} duration={1000} className="nav-link">Projects</Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link to="resume" smooth={true} duration={1000} className="nav-link">Resume</Link>
                     </li>
                     <li className="nav-item">
                         <Link to="background" smooth={true} duration={1000} className="nav-link">Background</Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to="contact" smooth={true} duration={1000} className="nav-link">Contact</Link>
+                    </li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                            Connect With Me
+                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                            Find Me On
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a className="dropdown-item" href="tel:+1-416-858-1606" target="_blank">Phone Number</a></li>
-                            <li><a className="dropdown-item" href="mailto:m*******m@gmail.com" target="_blank">E-mail</a></li>
                             <li><a className="dropdown-item" href="https://github.com/Mahdi-Moradzadeh" target="_blank">GitHub</a></li>
                             <li><a className="dropdown-item" href="https://www.linkedin.com/in/mahdimoradzadeh/" target="_blank">LinkedIn</a></li>
-                            <li><hr className="dropdown-divider" /></li>
                             <li><a className="dropdown-item" href="https://www.instagram.com/mehdi__mm97/" target="_blank">Instagram</a></li>
                             <li><a className="dropdown-item" href="https://twitter.com/7H3_3M" target="_blank">Twitter</a></li>
                             <li><a className="dropdown-item" href="https://www.facebook.com/mehdi.moradzadeh97" target="_blank">Facebook</a></li>
