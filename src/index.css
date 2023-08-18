@@ -16,7 +16,7 @@ main {
 }
 
 .App {
-    min-height: 100vh; 
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -138,4 +138,22 @@ main {
 
 .navbar .navbar-brand:hover {
     color: #fff !important;
+}
+
+.dropdown-menu {
+    background-color: rgba(34,34,34,1);
+    border: none;
+}
+
+.dropdown-item {
+    color: #f4f4f4;
+    transition: color 0.2s;
+}
+
+.dropdown-item:hover {
+    color: #a5a5a5;
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
 }

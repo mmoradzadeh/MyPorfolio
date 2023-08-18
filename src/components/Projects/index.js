@@ -2,7 +2,7 @@ import React from 'react';
 import movieDashboard from '../../assets/img/Project1.jpg';
 import blogtopia from '../../assets/img/Project3.jpg';
 import spoiledTomatillos from '../../assets/img/Project2B.jpg';
-
+import budgetWise from '../../assets/img/BUDGETWISE.jpg';
 function Projects() {
     return (
         <div className="projects container mt-5" id='projects'>
@@ -23,6 +23,15 @@ function Projects() {
                 <div className="text-center">
                     <a href="https://github.com/Mahdi-Moradzadeh/myBlog" target="_blank" rel="noopener noreferrer" className="btn btn-primary mr-2">GitHub Repo</a>
                     <a href="https://blogtopia-c4f44af01b96.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-success">Deployed Version</a>
+                </div>
+            </div>
+
+            <div className="project-item mb-4">
+                <img src={budgetWise} alt="Project 3" />
+                <p>budgetWise: Using latest technologies such as React, MongoDB and graphQL, BudgetWise has been created to ease your experience with tracking your expenses, incomes and setting budgets</p>
+                <div className="text-center">
+                    <a href="https://github.com/TimeBytes/Budget-Wise" target="_blank" rel="noopener noreferrer" className="btn btn-primary mr-2">GitHub Repo</a>
+                    <a href="https://afternoon-tundra-66898-d64f284645ec.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-success">Deployed Version</a>
                 </div>
             </div>
 
