@@ -28,7 +28,7 @@ main {
 }
 
 .footer {
-    background-color: #343a40;
+    background: linear-gradient(rgba(50,50,50,1), rgba(34,34,34,1));
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -54,12 +54,12 @@ main {
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(213, 73, 73, 0.1);
 }
 
 .resume, .projects, .about, .background, #contact {
-    background-color: #b4b4b4e8;
-    padding: 20px;
+    background: linear-gradient(rgb(181, 34, 34), rgb(0, 0, 0));    padding: 20px;
+    color: rgba(255, 255, 255, 0.933);
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -168,6 +168,4 @@ nav > a, nav > button, nav > div > ul > li > a {
 
 main {
     background-color: #000000c8;
-}
-main > div {
 }
