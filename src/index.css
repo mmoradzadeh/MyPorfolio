@@ -58,11 +58,12 @@ main {
 }
 
 .resume, .projects, .about, .background, #contact {
-    background: linear-gradient(rgb(181, 34, 34), rgb(0, 0, 0));    padding: 20px;
+    background: linear-gradient(rgb(149, 43, 43), rgb(0, 0, 0));    padding: 20px;
     color: rgba(255, 255, 255, 0.933);
     margin-bottom: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border: 1px solid #e0e0e0;
+    box-shadow: 11px 10px 20px rgba(243, 233, 88, 0.335);
 }
 
 .app-content {
@@ -96,7 +97,7 @@ main {
 
 .project-item {
     flex-basis: calc(33.33% - 20px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 238, 0, 0.335);
     border-radius: 5px;
     overflow: hidden;
     transition: transform .2s;
@@ -167,5 +168,5 @@ nav > a, nav > button, nav > div > ul > li > a {
 }
 
 main {
-    background-color: #000000c8;
+    background: linear-gradient(rgb(54, 52, 38), rgb(25, 25, 25));
 }
