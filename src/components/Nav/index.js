@@ -28,7 +28,7 @@ function Nav() {
                         <Link to="contact" smooth={true} duration={1000} className="nav-link">Contact</Link>
                     </li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                        <a className="nav-link dropdown-toggle" href='_blank' id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                             Find Me On
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">

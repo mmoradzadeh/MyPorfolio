@@ -2,45 +2,45 @@ import React from 'react';
 
 function Background() {
     return (
-        <div className="background container mt-5" id='background'>
-            <h2>Background</h2>
-
-            <div className="work-item mt-4">
-                <h3>Skills and Programs</h3>
-                <p>
-                    I have explored many applications and have acquired many skills throughout my journey. Among these are a moderate understanding of programming in C and C++ languages, beginner skills in python, average understanding of Matlab, excellent skills in the Microsoft suites (e.g. word, excel, etc.), and confidence in my abilities to work with AutoCAD, SAP, Safe, and ETABs.
-                </p>
-                <p>
-                    I have acquired team working and excelled in communication skills during the completion of my Bachelors degree and have been successful at expanding my connection network outside of my field of study. I am passionate about my responsibilities and always give my unequivocal attention towards completing tasks at hand.
-                </p>
-            </div>
+        <div className="background">
+            <div className=" container mt-5" id='background'>
+                <h2>Background</h2>
+                <div className="work-item mt-4">
+                    <h3>Skills and Programs</h3>
+                    <p>
+                        In the dynamic realm of web development, I've honed a diverse set of skills that encompass both the frontend and backend aspects of the process. My expertise lies in JavaScript, Express.js, Node.js, React.js, and several other frameworks and libraries, ensuring seamless, responsive, and dynamic web application development. Furthermore, my proficiency in databases like MySQL and MongoDB, combined with my adeptness in tools such as GraphQL and REST API, allows me to build and manage robust and efficient data structures for diverse projects.
+                    </p>
+                    <p>
+                        Besides web development tools, I'm also well-versed in a variety of programming languages, including C++, C#, and Python. My grasp of software and applications like AutoCAD, MATLAB, and the Microsoft Office Suite has frequently proved invaluable in both academic and professional settings, enhancing my versatility and problem-solving abilities in the tech landscape.
+                    </p>
+                </div>
             
-            <div className="work-item mt-4">
-                <h3>Education</h3>
-                <strong>Masters of Applied Sciences</strong>
-                <p>
-                    During the completion of my master's degree, I focused on a rare condition that occurs in concrete structures of basement walls and foundations. This phenomena is thought to be originated from the presence of sulfate in aggregates within the concrete matrix, scientifically known as Internal Sulphate Attack (ISA). Due to the lack of information regarding this topic, I was tasked with attempting to find an accelerated method that can identify the adequacy of aggregates used in concrete under extreme conditions.
-                </p>
-                <p>
-                    I successfully discovered two revolutionary methods that could possibly define the adequacy of aggregates to be used by the industry. This groundbreaking discovery is currently under further investigation to be published and presented to the Canadian Standard Association of concrete structures or CSA as a possible examination process on a universal scale.
-                </p>
+                <div className="work-item mt-4">
+                    <h3>Education</h3>
+                    <p>
+                        My educational journey began at Toronto Metropolitan University, where I earned a Bachelor of Engineering, specializing in Structural Engineering. Here, I delved deep into advanced structural analysis and design methodologies, gaining proficiency in using industry-standard software for structural analysis and design. I further pursued a Master of Applied Science at the same institution, specializing in concrete materials. My master's research focused on the innovative field of oxidation testing for sulphide-bearing aggregates in concrete, leading to the development of novel methods and valuable insights.                    </p>
+                    <p>
+                        Recognizing the ever-evolving nature of technology and its profound impact on various sectors, I embarked on a transformative journey with the University of Toronto to acquire a Full Stack Web Development Certificate. This rigorous 24-week immersive program armed me with advanced technical programming proficiencies, setting the stage for my current role as a fullstack web developer.
+                    </p>
+                </div>
+                <div className="work-item mt-4">
+                    <h3>Fun Facts</h3>
+                    <p>
+                        Beyond the world of codes, structures, and algorithms, I have a myriad of interests that shape who I am. Did you know that during my time at Toronto Metropolitan University, I contributed to extensive research on concrete materials? It's a testament to my belief that there's always something new to learn, even in traditional fields. In the realm of web development, while I've independently built platforms like 'Blogtopia', I've also cherished collaborative projects like 'Movie Review', where I worked with a team of five developers, navigating the challenges and joys of team dynamics.
+                    </p>
+                    <p>
+                        Moreover, my role as an Associate IT Manager at Mr. Beaver Inc. has not just been about managing systems and software applications. It's also offered me unique opportunities to innovate and redesign websites for enhanced user navigation and appeal. Every project and role, no matter how technical, always has a story behind it, and I'm always eager to share those stories and the lessons they've brought.
+                    </p>
+                    <strong>Interests:</strong>
+                    <ul>
+                        <li>Continually expanding my knowledge about different languages and cultures.</li>
+                        <li>Learning horseback riding.</li>
+                        <li>Diving deeper into programming languages to expand my toolset.</li>
+                        <li>Traveling the world to visit historical venues.</li>
+                        <li>Volunteering in communities and supporting local events tied to my background and ethnicity.</li>
+                    </ul>
+                </div>
             </div>
-
-            <div className="work-item mt-4">
-                <h3>Fun Facts</h3>
-                <p>
-                    Some fun facts that might surprise people can be further categorized into two groups: interests and hobbies. Here, I'll detail things I am passionate about and strive to acquire more knowledge in (interests), and activities I indulge in during my free hours.
-                </p>
-                <strong>Interests:</strong>
-                <ul>
-                    <li>Continually expanding my knowledge about different languages and cultures.</li>
-                    <li>Learning horseback riding.</li>
-                    <li>Diving deeper into programming languages to expand my toolset.</li>
-                    <li>Traveling the world to visit historical venues.</li>
-                    <li>Volunteering in communities and supporting local events tied to my background and ethnicity.</li>
-                </ul>
-            </div>
-
         </div>
     );
 }

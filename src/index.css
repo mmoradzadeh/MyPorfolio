@@ -1,6 +1,6 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #3a3939;
     margin: 0;
     height: 100%;
     display: flex;
@@ -57,13 +57,18 @@ main {
     box-shadow: 0 0 10px rgba(213, 73, 73, 0.1);
 }
 
-.resume, .projects, .about, .background, #contact {
+#resume, #projects, #about, #background, #contact {
     background: linear-gradient(rgb(149, 43, 43), rgb(0, 0, 0));    padding: 20px;
     color: rgba(255, 255, 255, 0.933);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     border-radius: 5px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #efef4c;
     box-shadow: 11px 10px 20px rgba(243, 233, 88, 0.335);
+}
+
+.about :hover, .projects :hover, .resume :hover, .contact :hover, .background :hover {
+    transition: transform .5s;
+    transform: scale(1.009);
 }
 
 .app-content {
@@ -79,7 +84,7 @@ main {
 }
 
 .work-item {
-    border: 1px solid #e0e0e0;
+    border: 1px solid #efef4c;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -125,7 +130,7 @@ main {
 }
 
 .nav-link:hover {
-    color: #a5a5a5 !important;
+    color: rgba(183, 26, 26, 0.822) !important;
 }
 
 .navbar {
@@ -141,25 +146,28 @@ main {
 }
 
 .navbar .navbar-brand:hover {
-    color: #fff !important;
+    color: rgba(183, 26, 26, 0.822) !important;
 }
 
 .dropdown-menu {
-    background-color: rgba(34,34,34,1);
+    background-color: rgba(34,34,34,1) !important;
     border: none;
 }
 
 .dropdown-item {
-    color: #f4f4f4;
-    transition: color 0.2s;
+    transition: color 0.2s !important;
+    color: #ffffff !important;
+
 }
 
 .dropdown-item:hover {
-    color: #a5a5a5;
+    color: #ca1515 !important;
+    transition: color 0.2s !important;
 }
 
 .navbar-toggler-icon {
     filter: brightness(0) invert(1);
+    color: #ffffff !important;
 }
 
 nav > a, nav > button, nav > div > ul > li > a {

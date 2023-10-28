@@ -3,21 +3,27 @@ import profilePic from '../../assets/profile/profilePic.jpeg';
 
 function About() {
     return (
-        <div className="about container mt-5" id='about'>
-            <h2>About Me</h2>
+        <div className='about'>
+            <div className="container mt-5" id='about'>
+                <h2>About Me</h2>
 
-            <div className="row">
-                <div className="col-md-4">
-                    <img src={profilePic} alt="myself" className="img-fluid rounded-circle mb-4" />
-                </div>
+                <div className="row">
+                    <div className="col-md-4">
+                        <img src={profilePic} alt="myself" className="img-fluid rounded-circle mb-4" />
+                    </div>
 
-                <div className="col-md-8">
-                    <p>I am a 26 year old Canadian student of University of Toronto participating in a part-time bootcamp program.
-                       I have completed my Bachelors and MASc degree in civil engineering from Toronto Metropolitan University (formerly known as Ryerson University).
-                       I've always known that programming was my passion ever since my first programming lesson back in 9th grade; however, I also had an interest in
-                       engineering since my childhood due to my knack for fixing and assembling things.</p>
-                    <p>I hope, using the tools provided in this bootcamp, I can combine my engineering skills with the programming knowledge I've gained to apply
-                       myself in an environment where I can continually grow.</p>
+                    <div className="col-md-8">
+                        <p>Welcome to the portfolio of Mohammadmahdi Moradzadeh, 
+                            a Toronto-based Fullstack Web Developer with a passion for creating innovative 
+                            web applications and a proven track record in systems optimization.</p> 
+                            <p> Blending a background in Civil Engineering with advanced technical proficiencies, I craft 
+                            digital solutions that prioritize user experience and efficiency. 
+                            Here, you'll discover a collection of projects that highlight my skills in both 
+                            frontend and backend development, as well as my commitment to continuous learning 
+                            and collaboration.</p> 
+                            <p> Dive in to witness my journey of turning concepts into tangible 
+                            web realities.</p>
+                    </div>
                 </div>
             </div>
         </div>
