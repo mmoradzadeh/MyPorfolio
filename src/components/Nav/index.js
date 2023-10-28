@@ -32,8 +32,8 @@ function Nav() {
                             Find Me On
                         </a>
                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a className="dropdown-item" href="https://github.com/Mahdi-Moradzadeh" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                            <li><a className="dropdown-item" href="https://www.linkedin.com/in/mahdimoradzadeh/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li><a className="dropdown-item" href="https://github.com/mmoradzadeh" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                            <li><a className="dropdown-item" href="https://www.linkedin.com/in/mmoradzadeh/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
                             <li><a className="dropdown-item" href="https://www.instagram.com/mehdi__mm97/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
                             <li><a className="dropdown-item" href="https://twitter.com/7H3_3M" target="_blank" rel="noopener noreferrer">Twitter</a></li>
                             <li><a className="dropdown-item" href="https://www.facebook.com/mehdi.moradzadeh97" target="_blank" rel="noopener noreferrer">Facebook</a></li>

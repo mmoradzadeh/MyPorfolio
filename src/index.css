@@ -45,16 +45,20 @@ main {
 .contact-form {
     display: flex;
     flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 .contact-form input, 
 .contact-form textarea {
     padding: 10px;
     margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.resume, .projects, .about {
-    background-color: white;
+.resume, .projects, .about, .background, #contact {
+    background-color: #b4b4b4e8;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -68,7 +72,6 @@ main {
 
 .background {
     padding: 20px;
-    background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     margin-bottom: 20px;
@@ -156,4 +159,15 @@ main {
 
 .navbar-toggler-icon {
     filter: brightness(0) invert(1);
+}
+
+nav > a, nav > button, nav > div > ul > li > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    background-color: #000000c8;
+}
+main > div {
 }
