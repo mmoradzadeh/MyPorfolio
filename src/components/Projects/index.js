@@ -20,7 +20,7 @@ function Projects() {
 
                 <div className="project-item mb-4">
                     <img src={blogtopia} alt="Project 2" />
-                    <p>Blogtopia: An amazing app that allows users to share their thoughts by posting a blog or commenting on other's and exchanging their experiences</p>
+                    <p>Blogtopia: This is an amazing platform that allows users to share their thoughts by posting a blog or commenting on other's and exchanging their experiences</p>
                     <div className="text-center">
                         <a href="https://github.com/mmoradzadeh/myBlog" target="_blank" rel="noopener noreferrer" className="btn btn-primary mr-2">GitHub Repo</a>
                         <a href="https://blogtopia.mmoradzadeh.com/" target="_blank" rel="noopener noreferrer" className="btn btn-success">Deployed Version</a>
