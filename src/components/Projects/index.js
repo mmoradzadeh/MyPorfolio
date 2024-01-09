@@ -23,7 +23,7 @@ function Projects() {
                     <p>Blogtopia: An amazing app that allows users to share their thoughts by posting a blog or commenting on other's and exchanging their experiences</p>
                     <div className="text-center">
                         <a href="https://github.com/mmoradzadeh/myBlog" target="_blank" rel="noopener noreferrer" className="btn btn-primary mr-2">GitHub Repo</a>
-                        <a href="https://blogtopia-c4f44af01b96.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn btn-success">Deployed Version</a>
+                        <a href="https://blogtopia.mmoradzadeh.com/" target="_blank" rel="noopener noreferrer" className="btn btn-success">Deployed Version</a>
                     </div>
                 </div>
 
