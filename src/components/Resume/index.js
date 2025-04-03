@@ -9,7 +9,7 @@ function Resume() {
                 
                 <div className="d-flex justify-content-center mb-3">
                     <a 
-                        href="/Resume.pdf" 
+                        href="/Mehdi Moradzadeh - Resume.pdf" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="btn btn-primary mr-2"
@@ -17,8 +17,8 @@ function Resume() {
                         View PDF
                     </a>
                     <a 
-                        href="/Resume.pdf" 
-                        download="MMoradzadeh-Resume.pdf"
+                        href="/Mehdi Moradzadeh - Resume.pdf" 
+                        download="Mehdi Moradzadeh - Resume.pdf"
                         className="btn btn-secondary"
                     >
                         Download Resume

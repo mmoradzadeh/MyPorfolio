@@ -1,6 +1,7 @@
 import React from 'react';
 import movieDashboard from '../../assets/img/Project1.jpg';
 import blogtopia from '../../assets/img/Project3.jpg';
+import bookSearch from '../../assets/img/Project2.jpg';
 import spoiledTomatillos from '../../assets/img/Project2B.jpg';
 import budgetWise from '../../assets/img/BUDGETWISE.jpg';
 function Projects() {
@@ -19,11 +20,11 @@ function Projects() {
                 </div>
 
                 <div className="project-item mb-4">
-                    <img src={blogtopia} alt="Project 2" />
-                    <p>Blogtopia: This is an amazing platform that allows users to share their thoughts by posting a blog or commenting on other's and exchanging their experiences</p>
+                    <img src={bookSearch} alt="Project 2" />
+                    <p>BooksSearch: A fantastic search engine finding the books you are looking for with a quick summary, author name, and a picture of the cover</p>
                     <div className="text-center">
-                        <a href="https://github.com/mmoradzadeh/myBlog" target="_blank" rel="noopener noreferrer" className="btn btn-primary mr-2">GitHub Repo</a>
-                        <a href="https://blogtopia.mmoradzadeh.com/" target="_blank" rel="noopener noreferrer" className="btn btn-success">Deployed Version</a>
+                        <a href="https://github.com/mmoradzadeh/bookSearch" target="_blank" rel="noopener noreferrer" className="btn btn-primary mr-2">GitHub Repo</a>
+                        <a href="https://booksearch.mmoradzadeh.com/" target="_blank" rel="noopener noreferrer" className="btn btn-success">Deployed Version</a>
                     </div>
                 </div>
 
@@ -42,6 +43,15 @@ function Projects() {
                     <div className="text-center">
                         <a href="https://github.com/mmoradzadeh/movieReview" target="_blank" rel="noopener noreferrer" className="btn btn-primary mr-2">GitHub Repo</a>
                         {/* <a href="[DEPLOYED LINK FOR PROJECT 3]" target="_blank" rel="noopener noreferrer" className="btn btn-success">Deployed Version</a> */}
+                    </div>
+                </div>
+
+                <div className="project-item mb-4">
+                    <img src={blogtopia} alt="Project 5" />
+                    <p>Blogtopia: This is an amazing platform that allows users to share their thoughts by posting a blog or commenting on other's and exchanging their experiences</p>
+                    <div className="text-center">
+                        <a href="https://github.com/mmoradzadeh/myBlog" target="_blank" rel="noopener noreferrer" className="btn btn-primary mr-2">GitHub Repo</a>
+                        <a href="https://blogtopia.mmoradzadeh.com/" target="_blank" rel="noopener noreferrer" className="btn btn-success">Deployed Version</a>
                     </div>
                 </div>
             </div>
